@@ -23,4 +23,4 @@ function daysUntil(futureDate) {
   }
   
   const daysUntilSeptember28 = daysUntil("2024-09-28");
-  console.log("Days until September 28, 2024:", daysUntilSeptember28);
+  document.getElementById("day").textContent = daysUntilSeptember28;
