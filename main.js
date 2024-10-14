@@ -22,5 +22,5 @@ function daysUntil(futureDate) {
     return differenceInDays;
   }
   
-  const daysUntilSeptember28 = daysUntil("2024-09-28");
+  const daysUntilSeptember28 = daysUntil("2024-12-22");
   document.getElementById("day").textContent = daysUntilSeptember28;
